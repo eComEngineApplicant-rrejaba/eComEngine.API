@@ -15,4 +15,5 @@ SwaggerUI will show the end points and can be used in testing
 
 Do a "Restore Nuget Packages" if the solution wont build due to missing packages
 
-I'm not sure what to put on "/contacts/call-list"
+I'm not sure what to put on "/contacts/call-list" endpoint
+- I have no implemention for it
