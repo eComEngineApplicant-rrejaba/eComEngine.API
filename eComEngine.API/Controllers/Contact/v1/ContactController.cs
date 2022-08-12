@@ -161,9 +161,10 @@ namespace eComEngine.API.Controllers
         }
 
         [HttpGet(), Route("call-list")]
-        public List<ContactEntity> CallList()
+        public ActionResult<List<ContactDTO>> CallList()
         {
-            return new List<ContactEntity>();
+            // dont know what to return on this endpoint
+            return NoContent();
         }
     }
 }
